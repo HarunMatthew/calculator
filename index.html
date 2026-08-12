@@ -1,4 +1,122 @@
-<!-- ------------------------------------------------- -->
-<!--                By Code Explained                  -->
-<!--          www.youtube.com/Code Explained           -->
-<!-- ------------------------------------------------- -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scientific Calculator</title>
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Calculator -->
+    <div class="calculator">
+
+        <div class="calc-container">
+
+            <!-- Output -->
+            <div class="output">
+
+                <!-- Operation -->
+                <div class="operation">
+                    <div class="value"></div>
+                </div>
+
+                <!-- Result -->
+                <div class="result">
+                    <div class="value">0</div>
+                </div>
+
+            </div>
+
+            <!-- Calculator Input -->
+            <div class="input">
+
+                <!-- Row 1 -->
+                <div class="row">
+                    <button id="rad">Rad</button>
+                    <button id="deg">Deg</button>
+                    <button id="square-root">√</button>
+                    <button id="square">x²</button>
+                    <button id="open-parenthesis">(</button>
+                    <button id="close-parenthesis">)</button>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="row">
+                    <button id="clear">C</button>
+                    <button id="delete">⌫</button>
+                    <button id="pi">π</button>
+                    <button id="cos">cos</button>
+                    <button id="sin">sin</button>
+                    <button id="tan">tan</button>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row">
+                    <button id="7">7</button>
+                    <button id="8">8</button>
+                    <button id="9">9</button>
+                    <button id="division">÷</button>
+                    <button id="e">e</button>
+                    <button id="acos">acos</button>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="row">
+                    <button id="4">4</button>
+                    <button id="5">5</button>
+                    <button id="6">6</button>
+                    <button id="multiplication">×</button>
+                    <button id="factorial">x!</button>
+                    <button id="asin">asin</button>
+                </div>
+
+                <!-- Row 5 -->
+                <div class="row">
+                    <button id="1">1</button>
+                    <button id="2">2</button>
+                    <button id="3">3</button>
+                    <button id="subtraction">−</button>
+                    <button id="exp">exp</button>
+                    <button id="atan">atan</button>
+                </div>
+
+                <!-- Row 6 -->
+                <div class="row">
+                    <button id="power">
+                        x<span>y</span>
+                    </button>
+
+                    <button id="ANS">ANS</button>
+                    <button id="percent">%</button>
+                    <button id="comma">.</button>
+                    <button id="0">0</button>
+
+                    <button id="calculate">=</button>
+
+                    <button id="addition">+</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript -->
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>
